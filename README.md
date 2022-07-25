@@ -1,3 +1,31 @@
+https://youtu.be/lmMVoBgIzNc
+
+sudo apt-get install git
+mkdir dev
+cd dev
+git clone git@github.com:DmanADYP/nFlunce.git
+
+sudo apt-get install build-essential libtool autotools-dev automake pkg-config bsdmainutils python3
+sudo apt-get install libevent-dev libboost-dev
+sudo apt install libsqlite3-dev
+sudo apt install libminiupnpc-dev libnatpmp-dev
+sudo apt-get install libzmq3-dev
+sudo apt install systemtap-sdt-dev
+sudo apt-get install libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools
+sudo apt install qtwayland5
+sudo apt-get install libqrencode-dev
+sudo apt-get install libboost-all-dev
+sudo apt-get install libssl-dev
+sudo add-apt-repository universe
+sudo apt update
+sudo apt install libfmt-dev
+sudo apt-get install libdb++-dev
+
+
+ ./autogen.sh && ./configure --with-incompatible-bdb
+
+
+
 Litecoin Core integration/staging tree
 =====================================
 
